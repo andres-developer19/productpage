@@ -7,7 +7,6 @@ const fetchProducts = async () => {
   return data
 }
 
-
 export default async function Home() {
   const products = await fetchProducts()
   return (

@@ -1,5 +1,4 @@
 
-import Image from 'next/image'
 import Item from './item/Item'
 
 const fetchProducts = async () => {
