@@ -6,7 +6,7 @@ function Items({products}) {
     console.log(products)
     const router = useRouter()
     return (
-        <div className="-mx-px grid grid-cols-2 border-l border-gray-200 sm:mx-0 md:grid-cols-3 lg:grid-cols-4">
+        <div className="-mx-px grid grid-cols-1 border-l border-gray-200 sm:mx-0 md:grid-cols-3 lg:grid-cols-4">
             {products.map((prod, i) => (
 
         <article 

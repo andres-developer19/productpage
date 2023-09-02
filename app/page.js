@@ -11,7 +11,7 @@ const fetchProducts = async () => {
 export default async function Home() {
   const products = await fetchProducts()
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-12">
       <Route products={products} />
     </main>
   )
